@@ -8,8 +8,8 @@ To compile
 
 To run server(player 1)
 
-> $ ./server [port number] [player number]
+> $ ./server [port number]
 
 To run client(player 2)
 
-> $ ./client [port number] [player number] [server ip address]
+> $ ./client [port number] [server ip address]
