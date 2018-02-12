@@ -21,8 +21,6 @@
 #define ROWS  3
 #define COLUMNS  3
 
-
-/* C language requires that you predefine all the routines you are writing */
 int checkwin(char board[ROWS][COLUMNS]);
 void print_board(char board[ROWS][COLUMNS]);
 int tictactoe();
@@ -47,7 +45,6 @@ int main(int argc, char *argv[])
 
 int tictactoe(char board[ROWS][COLUMNS])
 {
-  /* this is the meat of the game, you'll look here for how to change it up */
   int sd;
   struct sockaddr_in server_address, from_address;
   int connected_sd;
@@ -75,7 +72,6 @@ int tictactoe(char board[ROWS][COLUMNS])
   char mark = 'X';      // either an 'x' or an 'o'
   int start = 0;
   int conv;
-  /* loop, first print the board, then ask player 'n' to make a move */
 
   do {
     print_board(board);
@@ -99,18 +95,8 @@ int tictactoe(char board[ROWS][COLUMNS])
     while(1) {
       printf("Player %d, enter a number:  ", player); // print out player so you can pass game
       scanf("%d", &choice); //using scanf to get the choice
-
-      //mark = (player == 1) ? 'X' : 'O'; //depending on who the player is, either us x or o
-      /******************************************************************/
-      /** little math here. you know the squares are numbered 1-9, but  */
-      /* the program is using 3 rows and 3 columns. We have to do some  */
-      /* simple math to conver a 1-9 to the right row/column            */
-      /******************************************************************/
       row = (int)((choice - 1) / ROWS); 
       column = (choice - 1) % COLUMNS;
-
-      /* first check to see if the row/column chosen is has a digit in it, if it */
-      /* square 8 has and '8' then it is a valid choice                          */
 
       if (choice < 10 && choice > 0 && board[row][column] == (choice + '0')) {
         board[row][column] = mark;
