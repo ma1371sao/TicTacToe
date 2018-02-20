@@ -1,5 +1,5 @@
 ## Description
-TicTacToe
+TicTacToe (UDP)
 
 ## Usage
 To compile
