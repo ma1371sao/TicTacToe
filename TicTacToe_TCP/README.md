@@ -1,5 +1,5 @@
 ## Description
-TicTacToe
+TicTacToe (TCP)
 
 ## Usage
 To compile
