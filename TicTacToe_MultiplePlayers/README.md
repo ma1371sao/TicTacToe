@@ -1,8 +1,5 @@
-# CSE 5462 Lab5
-TicTacToe supporting multiple player
-
-## Name
-Shijie Ma, Zheng Zheng
+## Description
+TicTacToe supporting multiple players
 
 ## Usage
 To compile
