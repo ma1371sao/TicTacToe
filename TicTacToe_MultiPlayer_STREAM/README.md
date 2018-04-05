@@ -1,4 +1,4 @@
-# CSE 5462 Lab7
+# Description
 TicTacToe supporting multiple player 
 
 ## Name
