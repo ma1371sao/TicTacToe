@@ -1,9 +1,6 @@
 # Description
 TicTacToe supporting multiple player by TCP
 
-## Name
-Shijie Ma, Zheng Zheng
-
 ## Usage
 To compile
 
