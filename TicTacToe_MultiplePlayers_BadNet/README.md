@@ -1,8 +1,4 @@
-# CSE 5462 Lab6
 TicTacToe supporting multiple player (Bad net)
-
-## Name
-Shijie Ma, Zheng Zheng
 
 ## Usage
 To compile
