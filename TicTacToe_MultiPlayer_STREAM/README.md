@@ -1,5 +1,5 @@
 # Description
-TicTacToe supporting multiple player 
+TicTacToe supporting multiple player by TCP
 
 ## Name
 Shijie Ma, Zheng Zheng
