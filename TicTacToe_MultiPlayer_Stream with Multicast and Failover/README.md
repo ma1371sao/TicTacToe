@@ -1,9 +1,6 @@
 # CSE 5462 Project
 TicTacToe supporting multiple player with Multicast and Failover
 
-## Name
-Shijie Ma, Zheng Zheng
-
 ## Usage
 To compile
 
