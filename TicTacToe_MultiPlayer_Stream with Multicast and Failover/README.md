@@ -1,4 +1,4 @@
-# CSE 5462 Project
+# Description
 TicTacToe supporting multiple player with Multicast and Failover
 
 ## Usage
